@@ -1,11 +1,20 @@
 # node-template
 Just a template with auto reloading 
 
-##Installation
+## Installation
 
-            `npm install`
+```
+npm install
+```
 
-##Usage
+## Usage
 
 Run dev server
-           ```gulp````
+```
+gulp
+
+or 
+
+npm run dev
+```
+

@@ -55,8 +55,6 @@ gulp.task('dev', function (cb) {
     reloadDelay: 1000,
   });
 
-
-
 });
 
 gulp.task('default', [
