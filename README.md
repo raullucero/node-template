@@ -7,5 +7,5 @@ Just a template with auto reloading
 
 ##Usage
 
-Run dev server:
-            `gulp`
+Run dev server
+           ```gulp````
