@@ -7,6 +7,8 @@ console.log(handlers);
 
 router.get('/', handlers.getAll);
 
+router.post('/', handlers.saveUser);
+
 router.get('/:userId', () => {
 });
 
