@@ -9,6 +9,8 @@ const routes = require('./api/routes/index');
 
 const app = express();
 
+// User native promise as mongoose promises library
+mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://localhost/node');
 var db = mongoose.connection;
 
