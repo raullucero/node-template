@@ -10,10 +10,8 @@ angular.module('wizeline', ['ui.router'])
     $stateProvider
       .state('home', {
         url: '/',
-        template: '<div>{{message}}</div>',
-        controller: function($scope) {
-          $scope.message = 'Hello from home route';
-        }
+        templateUrl: 'src/home/home.html',
+        controller: 'HomeController'
       })
       .state('error', {
         url: '/error',
