@@ -3,7 +3,14 @@ const bodyParser = require('body-parser');
 const path = require('path');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
+// var AES = require("crypto-js/aes");
+const CryptoJS = require('crypto-js');
 
+
+// var rawStr = "hello world asdasd!";
+// var wordArray = CryptoJS.AES.encrypt(rawStr);
+// var base64 = CryptoJS.enc.Base64.stringify(wordArray);
+// console.log('encrypted:', wordArray.toString());
 
 const routes = require('./api/routes/index');
 
